@@ -1,2 +1,3 @@
 import os
-os.chdir('../') 
+os.system('cmd /k "cd .."')
+os.system('cmd /k "python warp.py"')
