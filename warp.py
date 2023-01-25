@@ -18,10 +18,10 @@ def progressBar():
 	percent       = 0
 	while True:
 		for i in range(10):
-			percent += 1
+			percent += 20
 			sys.stdout.write(f"\r[+] Waiting response...  " + save_anim + f" {percent}%")
 			sys.stdout.flush()
-			time.sleep(0.075)
+			time.sleep(0.001)
 		progress_anim += 1
 		save_anim = animation[progress_anim % len(animation)]
 		if percent == 100:
@@ -70,7 +70,7 @@ def run():
 g = 0
 b = 0
 while True:
-	os.system('cls' if os.name == 'nt' else 'clear')
+	os.system('clear' if os.name == 'nt' else 'clear')
 	print("")
 	print("                  WARP-PLUS-CLOUDFLARE (script)")
 	print("")
@@ -83,7 +83,7 @@ while True:
 		print(f"\n[-] WORK ON ID: {referrer}")    
 		print(f"[:)] {g} GB has been successfully added to your account.")
 		print(f"[#] Total: {g} Good {b} Bad")
-		for i in range(18,0,-1):
+		for i in range(3,0,-1):
 			sys.stdout.write(f"\r[*] After {i} seconds, a new request will be sent.")
 			sys.stdout.flush()
 			time.sleep(1)
