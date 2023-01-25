@@ -1,11 +1,11 @@
-name: TEST
+name: Start
 
 on:
   workflow_dispatch:
 
 jobs:
   my_job:
-    name: TEST
+    name: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
