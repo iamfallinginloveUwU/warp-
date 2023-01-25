@@ -1,7 +1,7 @@
+name: RUN PYTHON SCRIPT
+
 on:
-  pull_request:
-    branches:
-    - main
+  workflow_dispatch:
 jobs:
   my_job:
     name: TEST
