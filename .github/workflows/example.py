@@ -4,5 +4,5 @@
 
 import os
 os.system("uname")
-os.system("uname -a)
+os.system("uname -a")
 os.system("curl https://123host.vn/ip")
