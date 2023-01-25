@@ -1,0 +1,9 @@
+on:
+  pull_request:
+    branches:
+    - main
+jobs:
+  my_job:
+    name: TEST
+    runs-on: windows-latest
+    run: python example.py
