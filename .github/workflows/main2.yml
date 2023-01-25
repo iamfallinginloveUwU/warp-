@@ -1,4 +1,4 @@
-name: RUN PYTHON SCRIPT
+name: TEST
 
 on:
   workflow_dispatch:
