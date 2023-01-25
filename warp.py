@@ -7,7 +7,7 @@ import time
 import os
 import sys
 script_version = '4.0.0'
-window_title   = f"WARP-PLUS-CLOUDFLARE By ALIILAPRO (version {script_version})"
+window_title   = f"WARP-PLUS-CLOUDFLARE (version {script_version})"
 os.system('title ' + window_title if os.name == 'nt' else 'PS1="\[\e]0;' + window_title + '\a\]"; echo $PS1')
 os.system('cls' if os.name == 'nt' else 'clear')
 referrer  = "35c955c7-a2bf-4111-a3d8-14b8e4a4e9ac"
